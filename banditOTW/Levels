@@ -1,0 +1,17 @@
+LEVEL 0 -> 1
+ssh into the account using ssh -p 2220 bandit0@bandit.bandit.labs.overthewire.org
+then use ls to find the readme file and then use cat to read the file
+
+LEVEL 1 -> 2
+After logging into the next user, you are given the taks to read a file named "-"
+first we must cd .. to get to the home directory
+next we will use cd bandit1 to get to the directory for this level
+In Linux you cannot just do cat - as the "-" symbol could direct you to stdin
+You can use the command "cat < -" in order to get the contents of the file
+
+LEVEL 2 -> 3
+Similar to the previous level, we are tasked to read afile that has spaces in its name
+You can use the comand cat "spaces in this filename"
+The quotations around the filename allow you to read the spaces
+
+LEVEL 3 -> 4
