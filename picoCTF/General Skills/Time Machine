@@ -1,0 +1,4 @@
+Download the challenge file and open it
+After opening the drop in folder, we can look at the message file which tells us that we need to look at the logs of the .git folder
+Once we open the log folder, we can then open up refs and then open up the heads folder and then the master file
+In the master file contains the flag
