@@ -1,3 +1,3 @@
-You use the command ssh -p 63155 ctf-player@titan.picoctf.net to connect to the shell
+You use the command ssh -p <port number> ctf-player@titan.picoctf.net to connect to the shell
 Enter the password 1ad5be0d
 Then you are given the flag
