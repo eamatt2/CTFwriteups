@@ -1,0 +1,8 @@
+We are given a challenge.zip file
+we will cd into drop-in where we will see just a message.txt file
+if we run ls -la we will see that there is also a .git file in there
+.git is version control for a repository
+if we run git init we can start a repo there
+now we will use git log so that we can find the log history 
+now we will run git checkout e720dc26a1a55405fbdf4d338d465335c439fb3e 
+now if we run cat message.txt we will see the flag 
