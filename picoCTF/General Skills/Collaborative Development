@@ -1,0 +1,5 @@
+You are given a challenge.zip file
+we want to get in the drop-in directory were we will run git init to restore the repository 
+Now if we checkout the logs folder inside of the .git directory, we will see that there is 3 files titled part-1, part-2, and part-3
+we will use git checkout on all of the logs that are shown in this folder
+each of these files will give us a separate part of the flag
