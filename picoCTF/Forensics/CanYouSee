@@ -1,0 +1,4 @@
+We are given a an image that contains the flag
+My first thought was to check the metadata of the image to see if the flag was hidden there
+In the metadata we can see that the attribution url contains the string cGljb0NURntNRTc0RDQ3QV9ISUREM05fM2I5MjA5YTJ9Cg==
+When we put this string into a Base64 decoder, we are given the flag
