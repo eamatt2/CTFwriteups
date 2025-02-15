@@ -1,0 +1,4 @@
+We are given a challenge file that contains a git repository
+Once we open the drop-in file, we can git init and then we can look at the logs of the repository to find who messed up the code 
+After looking around we can see that there is a user with the name picoCTF{@sk_th3_int3rn_ea346835}
+That is our flag, but if we checkout the commit we can see that the code print("Hellow, World!" does not have the correct syntax
