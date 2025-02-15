@@ -1,0 +1,9 @@
+The goal of this CTF is to learn how to do binary operations, which includes *, <<, >>, &, |, +  , and to do a hex conversion
+The first question required me to do 01101110 * 11100000 which equaled 0110000001000000
+The second question had me left shift 01101110 by 1 bit which was 0110111100
+The third question had me right shift 11100000 by 1 bit which was 1110000
+The fourth question had me & the two which means that 1 & 1 = 1 and 1 & 0 = 0 and 0 & 0 = 0. The resulting number was 01100000
+The fifth question had me | the two which means 1 | 1 = 1 and 1 | 0 = 1 and 0 | 0 = 0. The resulting binary value was 11101110
+The sixth question had me do 01101110 + 11100000 = 0101001110
+Now we convert 0101001110 to a hex value which equals 14E
+This gives us the flag picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_675602ae}
