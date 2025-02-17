@@ -1,0 +1,11 @@
+In this CTF we are given a very large zip file that contains a large amount of files and folders
+It is not a good idea to manually check each file and folder as this would take ages
+We can use the grep command which is a command that searches for specific patterns and text in files
+If we extract the file and then run grep -r "picoCTF" big-zip-files
+
+Our command can be broken down like this 
+-r recursively searches the directory we speficy
+"picoCTF" is the string pattern that we are searching for
+big-zip-files is the directory that we are searching through
+
+Using this command we are given the flag picoCTF{gr3p_15_m4g1c_ef8790dc}
