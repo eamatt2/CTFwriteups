@@ -9,3 +9,15 @@ Our command can be broken down like this
 files is the directory that we are searching through
 
 Using this command we are given the flag picoCTF{f1nd_15_f457_ab443fd1}
+
+Alternatively we can use the find command to find the path to the file as the find command is used to find file sor directories
+
+Our command, find files -name uber-secret.txt , can be broken down like this
+files is the name of the directory we want to search through
+-name allows us to specify the name of the file we want to find
+uber-secret.txt is the file we want to find
+
+After running this command we are given the path to the file which is 
+
+files/adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+
