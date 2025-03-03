@@ -1,0 +1,4 @@
+For this challenge we need to find the MD5 hash for some of the generated words that the command prompt gives us
+
+Use CyberChef and use the MD5 recipe so that we can get the MD5 hash of all of the different inputs that we have
+Repeat this process until the flag picoCTF{4ppl1c4710n_r3c31v3d_bf2ceb02} is outputted
