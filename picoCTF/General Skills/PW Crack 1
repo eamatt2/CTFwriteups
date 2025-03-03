@@ -1,0 +1,16 @@
+You are given two files titled level1.py and level1.flag.txt.enc
+
+If we open the level1.py file we want to look at this function
+
+def level_1_pw_check():
+    user_pw = input("Please enter correct password for flag: ")
+    if( user_pw == "1e1a"):
+        print("Welcome back... your flag, user:")
+        decryption = str_xor(flag_enc.decode(), user_pw)
+        print(decryption)
+        return
+    print("That password is incorrect")
+
+We notice that the if statement is checking the expected input vs the user input
+Now we want to run the program with the command python3 level1.py which then prompts us for an input
+Your input will be 1e1a and this will cause the program to output the flag picoCTF{545h_r1ng1ng_fa343060}
