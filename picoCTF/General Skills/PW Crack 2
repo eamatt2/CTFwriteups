@@ -1,0 +1,13 @@
+We are given two files, level2.py and level2.flag.txt.enc
+
+If we look at the code for level2.py, our password checker, we can see that it is checker the user input and comparing it to the expected input
+We can see the if statement
+  if( user_pw = chr(0x34) + chr(0x65) + chr(0x63) + chr(0x39) ):
+
+0x34 is 4 in ascii
+0x65 is e in ascii
+0x63 is c in ascii
+0x39 is 9 in ascii
+
+that means that it is expecting 4ec9 as the password input 
+after running python3 level2.py and then typing in 4ec9 we are given the flag picoCTF{tr45h_51ng1ng_9701e681}
