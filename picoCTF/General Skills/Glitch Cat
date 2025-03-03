@@ -1,0 +1,16 @@
+You are given a machine that you need to connect to
+
+The output picoCTF{gl17ch_m3_n07_' + chr(0x61) + chr(0x34) + chr(0x33) + chr(0x39) + chr(0x32) + chr(0x64) + chr(0x32) + chr(0x65) + '}' is printed to the command line
+
+We can complete this flag by finding the ascii values and filling them in to complete the flag
+
+0x61 is 'a' in ascii
+0x34 is '4' in ascii
+0x33 is '3' in ascii
+0x39 is '9' in ascii
+0x32 is '2' in ascii
+0x64 is 'd' in ascii
+0x32 is '2' in ascii
+0x65 is 'e' in ascii
+
+the final flag is picoCTF{gl17ch_m3_n07_a4392d2e}
