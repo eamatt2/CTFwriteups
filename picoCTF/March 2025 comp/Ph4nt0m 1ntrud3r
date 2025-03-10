@@ -1,0 +1,16 @@
+You are given a pcap file that contains captured packets
+
+In Wireshark I sorted the packets from Latest packet to earliest packet
+
+When going from Latest to earliest, I noticed that the latest packetes contained base64 chunks in their flag segments
+After going through each flag in descending order that had base64 I got the chunks
+
+cGljb0NURg==              (Latest packet)
+ezF0X3c0cw==              (2nd Latest packet)
+bnRfdGg0dA==              (etc....)
+XzM0c3lfdA==
+YmhfNHJfOQ==
+NjZkMGJmYg==
+fQ==
+
+Which after decoding them gave me the flag picoCTF{1t_w4snt_th4t_34sy_tbh_4r_966d0bfb}
