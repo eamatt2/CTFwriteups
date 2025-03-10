@@ -1,0 +1,6 @@
+We are given a png of the color red
+
+We can easily assume tht the image contains the flag so if we upload the image into https://www.aperisolve.com/ we can see different tools applied to the image
+
+If we scroll down to the zsteg (a ruby tool that detects and extracts hidden data from PNG and BMP files) we can see the base64 string cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==
+If we decode that string we get the flag picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
