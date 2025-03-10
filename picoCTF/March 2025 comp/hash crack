@@ -1,0 +1,12 @@
+In this ctf we are tasked with cracking the hashes to find the respective password associated with that hash
+
+The first hash that we are given to crack is 482c811da5d5b4bc6d497ffa98491e38
+  We notice that the hash itself is 32 characters long which is pretty normal for an MD5 hash. If we run this in a hashcracker, I used CrackStation, and have it run MD5 hashes we get password123 as the output
+
+The second hash that we are given to crack is b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3
+  We notice that the hash itself is 40 characters long which is normal for a SHA1 hash. If I run it through the same website the output is letmein
+
+The last hash we are given is 916e8c4f79b25028c9e467f1eb8eee6d6bbdff965f9928310ad30a8d88697745
+  Similar to the previous hashes, if we look at the length of this hash we can see that it is 64 characters long like a sha256 hash normally is. The output for this hash is qwerty098
+
+After inputting those three passwords, we are given the flag picoCTF{UseStr0nG_h@shEs_&PaSswDs!_dcd6135e}
