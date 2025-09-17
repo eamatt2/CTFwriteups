@@ -1,0 +1,8 @@
+Ran file ./bof2
+  bof2 is a 32 bit ELF file
+Ran checksec --file=./bof2
+  it is a 32 bit, x86 little endian
+  No stack canary which means that we can write a buffer overflow since the canary will not be checked for corruption
+
+Now we can check the assembly of main by running disassemble main
+
