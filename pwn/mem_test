@@ -1,0 +1,4 @@
+memory address of the shell command: 0x804a020
+win_func: 0x08049443
+Run program with cyclic patter of lenght 100. Program crashes at 0x61616861 which is 'ahaa'
+cyclic -l ahaa gives us the offset of 27
