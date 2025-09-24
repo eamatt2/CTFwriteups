@@ -1,0 +1,14 @@
+We first can run the code as gdb ret
+
+Now we can run info functions to see the functions that are used in the binary
+
+Then we can add a break at main, and when we do we see that there is a function called "func"
+
+Next we can disassemble that function by running "disas func"
+
+After inspecting the disassembly, we notice that their is a scanf call and shortly after it compares the scanf input to deadbeef and pon success it will jump.
+
+We can seee that the start of the buffer is ebp-0x4c and the end of the buffer is ebp-0xc. This is an offset of 64 bytes. At the end of this offset we need to include deadbeef so that we pass the string compare check. 
+Now we also need to get to the ret address at ebp +4 this is an additional 12 bytes so in total we need to overflow with 76 bytes to reach the win function
+  
+Now in our script we know what the overflow(76) amount is so we can substitute that into it
